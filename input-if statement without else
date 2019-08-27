@@ -1,0 +1,19 @@
+# We first ask the user to enter three integer numbers, and we assign those numbers
+# to variables called a, b and c (user doesn't know what we call them, it is for us to
+# to be able to continue with our program).
+
+a = int(input("First Integer:" ))
+b = int(input("Second Integer:" ))
+c = int(input("Third Integer:" ))
+
+# Here, we are creating an if statement(conditional) using our variables a, b and c.
+# What we ask for it to do is pretty obvious. One thing really important is we use "or"
+# operator which means "if any of these are true", then print out "sum of two".
+# Second important thing is as you see we didn't use "else". We can simply do that
+# and it simply means do nothing if our statements are not true.
+
+if a+b==c or b+c==a or a+c==b:
+    print('sum of two')
+    
+if a*b==c or b*c==a or a*c==b:
+    print('product of two')
