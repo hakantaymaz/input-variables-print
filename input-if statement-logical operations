@@ -1,0 +1,16 @@
+# First, ask the user to enter a number which will be stored in a variable we call "a".
+
+a = int(input("enter a number: "))
+
+# Here we use an if statement and we have two conditions;
+# 1. if the number the user entered is greater than 5 and at the same time it is
+# less than 10. If these two conditions together are met, then we say print out
+#"a is less than 4". Otherwise (we use else), we want it to print out "BS"
+# Please pay attention that the statement we print doesn't need to be true, we can
+# print whatever we want if the conditions are met or else..
+
+if a > 5 and a < 10:
+    print("a is less than 4")
+    
+else:
+    print("BS")
