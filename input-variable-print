@@ -1,0 +1,20 @@
+# Ask user to enter three integers which means to ask him/her
+# to assign integer values to x, y and z. 
+
+x  = int(input('Enter x: '))
+y  = int(input('Enter y: '))
+z  = int(input('Enter z: '))
+
+# Assign remainders of x, y and z to variables named a, b and c.
+
+a = x % 3
+b = y % 4
+c = z % 5
+
+# Assign the result of the operation a * b * c toa variable called d.
+
+d = a * b * c
+
+# Print out the result of the operation when the user inputs x, y and z.
+
+print(d)
