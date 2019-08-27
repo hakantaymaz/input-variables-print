@@ -1,0 +1,16 @@
+# ask the user to enter two numbers
+# the code below means when the user enter those numbers, they will be stored
+# in variables called "a" and "b".
+
+a = int(input("enter number 1: "))
+b = int(input("enter number 2: "))
+
+# Here we are writing an if statement (condition).
+# What we say here is if the remainder (a%b) when we do the operation a/b equals 0,
+# then, print out the word "divisible" on the screen. If not (else), print out
+#"not divisible" on the screen.
+
+if a%b is 0:
+    print('divisible')
+else:
+    print('not divisible')
