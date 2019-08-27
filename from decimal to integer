@@ -1,0 +1,12 @@
+# You name a variable "number".
+
+number = 4.78
+
+# Then you convert that number which was a decimal to an integer by using int() function.
+# Then you assign it to another variable called "a"
+
+a = int(number)
+
+# Then you print out the variable "a".
+
+print(a)
