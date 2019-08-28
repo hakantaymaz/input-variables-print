@@ -14,9 +14,11 @@ while play_or_done != "n":
         if play_or_done == "n":
             break
         else:
-            a = random.randint(1,9)
+            a = random.randint(1,10)
             pass
     elif user_guess > a:
         print("Too high!")
-    else:
+    elif user_guess < a:
         print("Too low!")
+    else:
+        print("Please enter a valid number!")
