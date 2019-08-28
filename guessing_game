@@ -1,0 +1,22 @@
+import random
+
+a = random.randint(1,10)
+
+user_guess = 0
+
+play_or_done = "y"
+
+while play_or_done != "n":
+    user_guess = int(input("Guess a number between 1 and 10?: "))
+    if user_guess == a:
+        print("You got it! Do you want to guess again?")
+        play_or_done = input("Keep playing? y/n: ")
+        if play_or_done == "n":
+            break
+        else:
+            a = random.randint(1,9)
+            pass
+    elif user_guess > a:
+        print("Too high!")
+    else:
+        print("Too low!")
